@@ -60,4 +60,4 @@ This project uses the following npm packages:
 
 ## 🌐 Live Demo
 
-Experience the **Crowd Stream** project live! <a href="">Live Link</a>
+Experience the **Crowd Stream** project live! <a href="https://radiant-bavarois-cb05fb.netlify.app/">Live Link</a>
