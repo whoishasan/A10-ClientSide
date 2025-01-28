@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+.duration5s {
+  animation-duration: 5s;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+* {
+  outline: none !important;
+  text-transform: capitalize;
+}
+
+hr {
+  background: blue !important;
+}
+
+ol,
+ul,
+menu {
+  list-style: decimal !important;
+  li {
+    margin-left: 40px;
+  }
+}
+.htmlShowcase {
+  h2,
+  h3,
+  p {
+    padding: 7px 0 !important;
+  }
+}
+#editor {
+  div {
+    overflow-y: auto;
+    height: 300px !important;
+    font-size: 14px;
+    h2,
+    h3,
+    p,
+    span {
+      padding: 5px 0;
+    }
+    h2 {
+      font-size: 1.2rem !important;
+    }
+
+    h3 {
+      font-size: 1.1rem !important;
+    }
+    h4,
+    h5,
+    h6 {
+      font-size: 1rem !important;
+    }
+
+    /* Code and preformatted text styles */
+    code {
+      font-size: 0.85rem !important;
+    }
+
+    pre {
+      code {
+        font-size: 0.8rem !important;
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.swiperWidth {
+  max-width: 1440px;
+}
+
+/* From Uiverse.io by satyamchaudharydev */
+.spinner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: -75px;
+}
+
+.spinner span {
+  position: absolute;
+  top: 50%;
+  left: var(--left);
+  width: 35px;
+  height: 7px;
+  background-color: #0284c7;
+  animation: dominos 1s ease infinite;
+}
+
+.spinner span:nth-child(1) {
+  --left: 80px;
+  animation-delay: 0.125s;
+}
+
+.spinner span:nth-child(2) {
+  --left: 70px;
+  animation-delay: 0.3s;
+}
+
+.spinner span:nth-child(3) {
+  left: 60px;
+  animation-delay: 0.425s;
+}
+
+.spinner span:nth-child(4) {
+  animation-delay: 0.54s;
+  left: 50px;
+}
+
+.spinner span:nth-child(5) {
+  animation-delay: 0.665s;
+  left: 40px;
+}
+
+.spinner span:nth-child(6) {
+  animation-delay: 0.79s;
+  left: 30px;
+}
+
+.spinner span:nth-child(7) {
+  animation-delay: 0.915s;
+  left: 20px;
+}
+
+.spinner span:nth-child(8) {
+  left: 10px;
+}
+
+@keyframes dominos {
+  50% {
+    opacity: 0.7;
+  }
+
+  75% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  80% {
+    opacity: 1;
+  }
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

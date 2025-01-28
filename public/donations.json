@@ -1,0 +1,51 @@
+[
+  {
+    "imageURL": "https://example.com/image1.jpg",
+    "campaignTitle": "Support Local Artists",
+    "campaignType": "Creative Ideas",
+    "description": "Help local artists exhibit their artwork in community events.",
+    "minimumDonationAmount": 50
+  },
+  {
+    "imageURL": "https://example.com/image2.jpg",
+    "campaignTitle": "Tech Startup Funding",
+    "campaignType": "Startup",
+    "description": "A next-gen AI platform aimed at transforming online education.",
+    "minimumDonationAmount": 100
+  },
+  {
+    "imageURL": "https://example.com/image3.jpg",
+    "campaignTitle": "Help Rebuild After the Flood",
+    "campaignType": "Personal Issue",
+    "description": "Provide resources for families impacted by the recent floods.",
+    "minimumDonationAmount": 25
+  },
+  {
+    "imageURL": "https://example.com/image4.jpg",
+    "campaignTitle": "Eco-Friendly Business Initiative",
+    "campaignType": "Business",
+    "description": "Launch an eco-friendly business producing biodegradable packaging.",
+    "minimumDonationAmount": 200
+  },
+  {
+    "imageURL": "https://example.com/image5.jpg",
+    "campaignTitle": "Musical Talent Showcase",
+    "campaignType": "Creative Ideas",
+    "description": "Support young musicians in hosting a talent showcase event.",
+    "minimumDonationAmount": 30
+  },
+  {
+    "imageURL": "https://example.com/image6.jpg",
+    "campaignTitle": "Health and Wellness App Development",
+    "campaignType": "Startup",
+    "description": "A mobile app focused on personalized fitness and nutrition tracking.",
+    "minimumDonationAmount": 150
+  },
+  {
+    "imageURL": "https://example.com/image7.jpg",
+    "campaignTitle": "Community Library Renovation",
+    "campaignType": "Personal Issue",
+    "description": "Restore and upgrade the community library for better accessibility.",
+    "minimumDonationAmount": 75
+  }
+]
