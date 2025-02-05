@@ -1,8 +1,4 @@
-<div>
 # Crowd Stream
-</div>
-
---
 
 ## 🗂️ Project Overview
 
@@ -13,8 +9,6 @@
 ## 🌐 Live Demo
 
 Experience the **Crowd Stream** project live! <a href="https://radiant-bavarois-cb05fb.netlify.app/">Live Link</a>
-
---
 
 ## Technologies used
 
