@@ -174,12 +174,12 @@ const AddCampaign = () => {
     const file = campThumbRef.current.files[0];
     const dataFile = new FormData();
     dataFile.append("file", file);
-    dataFile.append("upload_preset", "Crowd Stream");
-    dataFile.append("cloud_name", "dhuydj1lg");
+    dataFile.append("upload_preset", "crowed-stream");
+    dataFile.append("cloud_name", "dzdvs6gaf");
 
     try {
       const response = await fetch(
-        `https://api.cloudinary.com/v1_1/dhuydj1lg/image/upload`,
+        `https://api.cloudinary.com/v1_1/dzdvs6gaf/image/upload`,
         {
           method: "POST",
           body: dataFile,
