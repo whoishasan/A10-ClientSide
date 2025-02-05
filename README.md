@@ -1,14 +1,40 @@
+<div>
 # Crowd Stream
-
-Welcome to **Crowd Stream**! Crowd Stream is an assignment from **Programming Hero**, Assignment No. 10.
+</div>
 
 --
 
 ## 🗂️ Project Overview
 
-**Crowd Stream** is a platform for to collect donation for crowdfunding campaigns
+**Crowd Stream** Crowd Stream Des is a crowdfunding platform that connects creators with supporters to bring innovative projects to life. Join us to discover and fund new ideas!
+
+---
+
+## 🌐 Live Demo
+
+Experience the **Crowd Stream** project live! <a href="https://radiant-bavarois-cb05fb.netlify.app/">Live Link</a>
 
 --
+
+## Technologies used
+
+### Frontend:
+
+- HTML, CSS, and Tailwind CSS for responsive and visually appealing design.
+- JavaScript for interactive and dynamic user interfaces.
+- React.js for building a scalable and component-based UI.
+
+### Backend:
+
+- Node.js with Express.js for handling server-side logic and APIs.
+
+### Database:
+
+- MongoDB for efficient and flexible data storage of user and campaign information.
+
+### Deployment:
+
+- Vercel for Backend or Netlify for frontend deployment.
 
 ## ✨ Key Fetures
 
@@ -55,9 +81,3 @@ This project uses the following npm packages:
 - **React Components** -
 - **Custom Hook**
 - **Enviorment Variable**-
-
----
-
-## 🌐 Live Demo
-
-Experience the **Crowd Stream** project live! <a href="https://radiant-bavarois-cb05fb.netlify.app/">Live Link</a>
