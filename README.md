@@ -108,8 +108,7 @@ Create a .env file in the root directory and add the necessary environment varia
 
 ```bash
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-STRIPE_API_KEY=your_stripe_key
+FIREBASE_CONFIGURATION_KEY=your_configuration_key
 ```
 
 **Use the command below to start the application locally:**
